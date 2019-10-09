@@ -1,0 +1,11 @@
+on: repository_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v1
+    - name: generate
+      run: ./updateReleases.py
+    - name: push
+      run: echo "TODO create commit"

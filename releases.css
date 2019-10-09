@@ -1,0 +1,21 @@
+body {
+	color: #d4d4d4;
+	background-color: #06060d;
+	font-family:sans-serif;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #bbbbbb;
+}
+
+
+.asset-size {
+    font-size: small;
+    margin-left: 10px;
+}
